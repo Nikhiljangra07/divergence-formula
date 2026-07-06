@@ -1,0 +1,22 @@
+{
+  "total_negatives": 97,
+  "premium_near_miss": 31,
+  "per_set": {
+    "set_a": {
+      "rejects": 51,
+      "near_miss": 24
+    },
+    "set_b": {
+      "rejects": 15,
+      "near_miss": 7
+    }
+  },
+  "fail_tally": {
+    "consequence": 43,
+    "pairdist": 34,
+    "incomplete": 36,
+    "length": 8,
+    "ground": 3,
+    "whole": 1
+  }
+}

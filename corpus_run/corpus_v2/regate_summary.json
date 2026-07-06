@@ -1,0 +1,16 @@
+{
+  "action_floor": 0.38,
+  "quality_passers": 215,
+  "old_full_prose_passers": 186,
+  "regated_passers": 201,
+  "recovered_false_negatives": 20,
+  "means_regated": {
+    "action_pd": 0.4909,
+    "full_pd": 0.3724,
+    "angle_pd": 0.4763,
+    "ground": 0.5573,
+    "whole": 0.4168,
+    "volume": -6.078
+  },
+  "note": "train workers on FULL threads; action_pd is the selection ruler only."
+}

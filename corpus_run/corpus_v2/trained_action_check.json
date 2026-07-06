@@ -1,0 +1,36 @@
+{
+  "n_per_label": {
+    "base": 3,
+    "A": 3,
+    "B": 3
+  },
+  "spend_usd": 0.017,
+  "refused": 0,
+  "null": 0,
+  "labels": {
+    "base": {
+      "n": 3,
+      "full_recomputed": 0.2618,
+      "full_reported_in_qual": 0.2618,
+      "sent1": 0.3255,
+      "action": 0.3944,
+      "action_minus_full": 0.1325
+    },
+    "A": {
+      "n": 3,
+      "full_recomputed": 0.2985,
+      "full_reported_in_qual": 0.2986,
+      "sent1": 0.4142,
+      "action": 0.4473,
+      "action_minus_full": 0.1488
+    },
+    "B": {
+      "n": 3,
+      "full_recomputed": 0.2915,
+      "full_reported_in_qual": 0.2937,
+      "sent1": 0.3759,
+      "action": 0.4926,
+      "action_minus_full": 0.2011
+    }
+  }
+}

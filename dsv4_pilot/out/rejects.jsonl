@@ -1,0 +1,10 @@
+{"source": "RI", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.053, "ground": 0.507, "whole": 0.238, "pairdist": 0.46}}
+{"source": "MB", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.056, "ground": 0.509, "whole": 0.347, "pairdist": 0.425}}
+{"source": "MB", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.058, "ground": 0.538, "whole": 0.484, "pairdist": 0.388}}
+{"source": "RI", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.103, "ground": 0.392, "whole": 0.265, "pairdist": 0.464}}
+{"source": "PR", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.052, "ground": 0.37, "whole": 0.387, "pairdist": 0.491}}
+{"source": "RI", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.067, "ground": 0.574, "whole": 0.358, "pairdist": 0.374}}
+{"source": "MB", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.223, "ground": 0.306, "whole": 0.197, "pairdist": 0.63}}
+{"source": "RI", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.078, "ground": 0.612, "whole": 0.372, "pairdist": 0.371}}
+{"source": "RI", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.089, "ground": 0.446, "whole": 0.346, "pairdist": 0.452}}
+{"source": "JPM", "_fails": [["consequence", 1.0]], "metrics": {"volume": -6.072, "ground": 0.55, "whole": 0.317, "pairdist": 0.416}}

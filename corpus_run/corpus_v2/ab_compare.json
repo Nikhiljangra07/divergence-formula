@@ -1,0 +1,23 @@
+{
+  "n_paired": 34,
+  "angle_pairdist_v2": 0.5022,
+  "v2_A_with_consequence": {
+    "pairdist": 0.4368,
+    "ground": 0.4959,
+    "whole": 0.3751,
+    "volume": -6.0922
+  },
+  "v2_B_without_consequence": {
+    "pairdist": 0.4516,
+    "ground": 0.4589,
+    "whole": 0.3529,
+    "volume": -6.0812
+  },
+  "v1_reference": {
+    "A_pairdist": 0.385,
+    "B_pairdist": 0.404,
+    "A_ground": 0.531,
+    "B_ground": 0.5
+  },
+  "spend_usd": 0.336
+}

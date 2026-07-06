@@ -1,0 +1,83 @@
+{
+  "judge": "gemini-2.5-pro",
+  "n_problems": 48,
+  "base": {
+    "admits_multiplicity": 4.98,
+    "distinctness": 2.87,
+    "concreteness": 4.04,
+    "decisiveness": 4.09,
+    "foresight": 2.91,
+    "viability": 3.57,
+    "overall": 3.74,
+    "n": 47,
+    "dist>=4%": 38.3
+  },
+  "sft": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.79,
+    "concreteness": 4.21,
+    "decisiveness": 4.81,
+    "foresight": 3.67,
+    "viability": 2.75,
+    "overall": 4.21,
+    "n": 48,
+    "dist>=4%": 100.0
+  },
+  "haiku": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.71,
+    "concreteness": 5.0,
+    "decisiveness": 4.88,
+    "foresight": 4.56,
+    "viability": 4.23,
+    "overall": 4.73,
+    "n": 48,
+    "dist>=4%": 93.8
+  },
+  "api_calls": {
+    "gemini_calls": 143,
+    "haiku_calls": 240
+  },
+  "by_category": {
+    "business": {
+      "base": 4.08,
+      "sft": 4.53,
+      "haiku": 4.67
+    },
+    "career": {
+      "base": 3.36,
+      "sft": 4.03,
+      "haiku": 4.8
+    },
+    "creative": {
+      "base": 3.75,
+      "sft": 4.69,
+      "haiku": 4.8
+    },
+    "ethics": {
+      "base": 3.56,
+      "sft": 4.11,
+      "haiku": 4.72
+    },
+    "finance": {
+      "base": 3.97,
+      "sft": 3.78,
+      "haiku": 4.67
+    },
+    "health_life": {
+      "base": 4.05,
+      "sft": 4.22,
+      "haiku": 4.72
+    },
+    "negotiation": {
+      "base": 3.67,
+      "sft": 3.89,
+      "haiku": 4.67
+    },
+    "relationship": {
+      "base": 3.44,
+      "sft": 4.39,
+      "haiku": 4.77
+    }
+  }
+}

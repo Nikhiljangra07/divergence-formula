@@ -1,0 +1,112 @@
+[
+  {
+    "id": "RI-01-infiltration",
+    "problem": "A concealed demonic cultivator has spent years embedded in a righteous clan that guards a resource he needs. The clan has begun hunting for an outsider in its midst.",
+    "facets": ["the resource still locked inside the clan", "the clan's rising hunt for an infiltrator", "his fragile concealed identity"],
+    "threads": [
+      {"_lens": "over-performance/loyalty", "text": "Volunteer for the clan's most dangerous duty so loyalty becomes an assumption no one inspects. The cost is real exposure to death, but suspicion drifts toward genuine outsiders and the resource stays in reach."},
+      {"_lens": "scapegoat-engineering", "text": "Manufacture a more obvious suspect and feed the hunt a target it wants. It burns a relationship and risks discovery if the frame breaks, but it converts the clan's paranoia into a weapon that clears your shadow."},
+      {"_lens": "extract-and-flee", "text": "Abandon the long game: seize the resource in one strike and vanish before the net tightens. You lose every future advantage inside the clan, but you keep the one thing you actually came for and your identity intact."},
+      {"_lens": "purge-as-opportunity", "text": "Steer the hunt itself, guiding it to consume your internal rivals under cover of the search. It is slow and could rebound, but you emerge with the resource path clearer and competitors gone."}
+    ]
+  },
+  {
+    "id": "RI-02-dying-ally",
+    "problem": "Mid-battle, a temporary ally who knows his true identity is losing and about to be captured alive by the enemy.",
+    "facets": ["the secret the ally can reveal under interrogation", "the resource cost of intervening", "the ongoing battle's momentum"],
+    "threads": [
+      {"_lens": "rescue-to-seal", "text": "Spend force to extract the ally and preserve the secret directly. It drains reserves you may need later, but it removes the leak at its source and buys continued cooperation."},
+      {"_lens": "let-die-bury", "text": "Let the capture become a death in the chaos and let the battlefield bury what the ally knew. You save resources and a future rival, but you gamble that the silence holds and the body is never read."},
+      {"_lens": "capture-to-control", "text": "Seize the ally yourself rather than let the enemy hold them, so you decide what is ever spoken. It marks you as the one who turned, yet it puts the only loose thread in your own hand."},
+      {"_lens": "sabotage-interrogation", "text": "Permit the capture, then poison the interrogation later so any confession is worthless. It risks the secret surviving the gap, but it costs nothing now and keeps your hands clean in the moment."}
+    ]
+  },
+  {
+    "id": "RI-03-refine-now-or-wait",
+    "problem": "A rare Gu can be refined now at sixty percent odds, or in three years at ninety-five percent — but rivals are closing on his position.",
+    "facets": ["the refinement odds and what failure destroys", "the three-year window rivals can exploit", "his current defensive position"],
+    "threads": [
+      {"_lens": "refine-now-accept-risk", "text": "Refine immediately and accept the four-in-ten chance of ruin. You may lose the materials outright, but success hands you the Gu before any rival can contest it."},
+      {"_lens": "wait-and-fortify", "text": "Wait the three years and spend them building defenses around the position. You expose a long window to attack, but you trade a coin-flip for a near-certainty if you survive the wait."},
+      {"_lens": "decoy-and-bait", "text": "Refine a worthless decoy in the open and let rivals spend themselves attacking it while the real work proceeds hidden. It splits your attention and could be seen through, but it turns the rivals' pressure into cover."},
+      {"_lens": "sell-the-window", "text": "Sell the refinement opportunity to a rival at a steep price and fund a safer path entirely. You surrender the prize, but you convert a gamble into capital and let someone else carry the risk."}
+    ]
+  },
+  {
+    "id": "RI-04-venerable-grotto",
+    "problem": "He finds a dead venerable's hidden grotto sealed by a lethal guardian formation with unknown contents inside.",
+    "facets": ["the lethal formation guarding entry", "the unknown value within", "the risk that others find the grotto first"],
+    "threads": [
+      {"_lens": "expendable-proxies", "text": "Probe the formation with expendable proxies until its pattern is paid for in their lives, not yours. It is slow and leaks evidence of the site, but you learn the trap's shape at no personal cost."},
+      {"_lens": "overwhelming-force", "text": "Break the seal with raw force before anyone else arrives, accepting damage to claim speed. You may waste much of the contents in the breach, but you own the grotto before it becomes contested."},
+      {"_lens": "decode-and-walk", "text": "Study the formation's logic until you can walk through it untouched. It demands time and skill you may not have, but it preserves the contents whole and leaves no trace of a forced entry."},
+      {"_lens": "seal-and-sell", "text": "Leave it sealed and sell the location's secret to a faction hungry enough to pay. You never see the contents, but you extract guaranteed value with zero exposure to the trap."}
+    ]
+  },
+  {
+    "id": "RI-05-loyal-subordinate",
+    "problem": "A subordinate has grown genuinely loyal and highly competent — which makes him the most dangerous future threat if his ambition ever turns.",
+    "facets": ["the subordinate's present usefulness", "his capacity to become a rival", "the cost of replacing or constraining him"],
+    "threads": [
+      {"_lens": "bind-by-dependence", "text": "Tie his strength to a resource only you supply, so his power and his leash grow together. It costs you that supply and a sliver of trust, but every gain he makes deepens his need for you."},
+      {"_lens": "cap-his-growth", "text": "Quietly limit how far he can rise while keeping him useful at his ceiling. You lose the upside of his full potential, but you also remove the day he could stand as your equal."},
+      {"_lens": "cultivate-fully", "text": "Invest in him completely and accept the risk for the capability a fully-grown subordinate gives. It may one day cost you everything, but until then you wield a tool no constrained rival can match."},
+      {"_lens": "test-then-decide", "text": "Spring a controlled betrayal opportunity and judge him by what he does with it. It risks teaching him to scheme, but it converts a guess about his loyalty into evidence before you commit."}
+    ]
+  },
+  {
+    "id": "RI-06-true-rumor",
+    "problem": "A true rumor about his demonic nature is spreading through a city he must keep operating in.",
+    "facets": ["the truth at the rumor's core", "the city he cannot abandon", "the pursuers the rumor could summon"],
+    "threads": [
+      {"_lens": "drown-in-noise", "text": "Flood the city with contradictory rumors until the true one cannot be picked out of the noise. It spends effort and could amplify interest, but it buries the signal that matters under a hundred false ones."},
+      {"_lens": "kill-the-source", "text": "Trace the rumor to its origin and remove the mouth that speaks it. It risks a louder reaction if the killing is seen, but it stops the spread where nothing else can reach."},
+      {"_lens": "leave-to-decay", "text": "Withdraw from the city briefly and let an unfed rumor starve on its own. You forfeit the city's use for a season, but rumors without a target lose their shape and die."},
+      {"_lens": "co-opt-into-legend", "text": "Bend the rumor into a grander false legend that points pursuers at a phantom. It is intricate and could collapse, but it turns a hunt for you into a hunt for someone who never existed."}
+    ]
+  },
+  {
+    "id": "RI-07-faction-war",
+    "problem": "Two factions he could join are at war: the stronger will likely win but offers him little, the weaker offers much but may be destroyed.",
+    "facets": ["the strong faction's safety but low reward", "the weak faction's high reward but fragility", "his own leverage in an unsettled war"],
+    "threads": [
+      {"_lens": "tip-the-weak", "text": "Join the weak side and tip the balance, making your contribution the hinge of their survival. You bet on a loser and may fall with them, but if they win you hold a debt no one can refuse."},
+      {"_lens": "neutral-broker", "text": "Stay outside and sell scarce aid to both sides at war prices. You gain no faction's protection, but you profit whoever wins and owe loyalty to neither."},
+      {"_lens": "join-the-strong-slow", "text": "Take the safe seat with the strong faction and build position patiently from inside. The rewards start thin, but survival is near-certain and proximity to power compounds over time."},
+      {"_lens": "prolong-the-war", "text": "Feed just enough to each side to keep the war from ending, so both bleed and your value rises. It is dangerous if discovered, but a long war makes a small player indispensable."}
+    ]
+  },
+  {
+    "id": "RI-08-healer-dilemma",
+    "problem": "Badly wounded, he is offered aid by a skilled healer — but accepting means revealing capabilities he has kept hidden.",
+    "facets": ["the wound that weakens him now", "the capabilities the healer would witness", "the healer as a future witness"],
+    "threads": [
+      {"_lens": "refuse-heal-hidden", "text": "Refuse the aid and recover slowly in concealment. You stay weak and exposed for longer, but no one learns what your body can do."},
+      {"_lens": "accept-then-silence", "text": "Accept the healing, then ensure the healer never speaks of it. It costs you a life and the risk of the act being traced, but it removes the witness the moment the wound closes."},
+      {"_lens": "accept-under-disguise", "text": "Accept while wearing a deeper false identity, so what the healer witnesses belongs to a mask. It demands flawless concealment under stress, but it lets you take the aid and leave the secret with a ghost."},
+      {"_lens": "fake-a-different-wound", "text": "Present a misleading injury so the healer treats the wrong thing and misreads your nature. You get partial, imperfect healing, but you walk away having taught a witness a lie."}
+    ]
+  },
+  {
+    "id": "RI-09-protege-betrayal",
+    "problem": "Early signs suggest a protege he relies on may betray him at a future critical moment.",
+    "facets": ["the protege's present indispensable role", "the signs of a coming betrayal", "the timing he cannot yet predict"],
+    "threads": [
+      {"_lens": "pre-empt-remove", "text": "Remove the protege now, before the betrayal can mature. You lose his present value immediately, but you close the danger while it is still small and certain."},
+      {"_lens": "feed-false-plans", "text": "Keep him close but route only false plans through him, so any betrayal delivers poison to the enemy. It is intricate and could be seen through, but it turns the leak into a channel you control."},
+      {"_lens": "strip-the-means", "text": "Leave him in place but quietly remove whatever he would need to actually harm you. You keep his usefulness, but the betrayal, when it comes, finds its hands empty."},
+      {"_lens": "let-it-spring-as-trap", "text": "Allow the betrayal to happen at a moment you have chosen and prepared, so it springs your trap instead of his. It risks misjudging the timing, but a betrayal you script destroys the betrayer."}
+    ]
+  },
+  {
+    "id": "RI-10-venerable-bait",
+    "problem": "An offer of rapid power arrives that is too good to be true — most likely a venerable's trap to harvest ambitious schemers like him.",
+    "facets": ["the genuine power the offer dangles", "the likelihood it is a harvesting trap", "the hidden party who benefits"],
+    "threads": [
+      {"_lens": "refuse-outright", "text": "Refuse entirely and forgo the power rather than step onto unknown ground. You surrender a real chance at strength, but you deny a hidden hand the one thing it needs: your participation."},
+      {"_lens": "take-with-escape-rigged", "text": "Accept the offer with an escape prepared in advance, intending to take the gain and slip the hook. It bets everything on your exit working, but if it does you steal from the trapper himself."},
+      {"_lens": "send-a-proxy", "text": "Send a disguised proxy to spring whatever waits, and learn the trap's true shape from a safe distance. You spend a pawn and may tip your caution, but you pay to see the mechanism before you ever risk yourself."},
+      {"_lens": "follow-the-benefit", "text": "Move on nothing until you trace who profits if you take the bait. It costs time the offer may not allow, but naming the beneficiary turns a blind trap into a known opponent."}
+    ]
+  }
+]

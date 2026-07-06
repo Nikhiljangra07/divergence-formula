@@ -1,0 +1,53 @@
+{
+  "goal": 360,
+  "generated": 360,
+  "by_source": {
+    "RIE": 180,
+    "JPE": 180
+  },
+  "by_theme": {
+    "TIMING A DISCLOSURE: you hold material private information i": 15,
+    "INCENTIVE ENGINEERING: restructure the deal, process, or rol": 15,
+    "an ALLIANCE OF CONVENIENCE with a direct rival (joint ventur": 15,
+    "PATIENT SETUP: accept a visibly weaker position now (a conce": 15,
+    "a counterpart's DISCOVERED CONSTRAINT (their deadline, their": 15,
+    "NEGOTIATING FROM INFORMATION ADVANTAGE: your side simply kno": 15,
+    "BATNA ENGINEERING: quietly building a credible alternative (": 15,
+    "CONCESSION SEQUENCING: what to give first, what to hold, and": 15,
+    "DEADLINE DESIGN: creating, moving, or exploiting time pressu": 15,
+    "ANCHORING: whether to name the first number, how extreme to ": 15,
+    "REDIRECTING AN AGGRESSOR: a counterpart escalates (threats o": 15,
+    "RUNNING A COMPETITIVE PROCESS: multiple suitors for the same": 15,
+    "COALITION BEFORE THE VOTE: a divided decision room (board, p": 15,
+    "the FAVOR ECONOMY: years of accumulated goodwill and unspoke": 15,
+    "a powerful GATEKEEPER (chief of staff, assistant, general co": 15,
+    "REPUTATION LEVERAGE: a dispute will be judged by an audience": 15,
+    "READING THE ROOM'S TRUE INTERESTS: a counterpart's stated po": 15,
+    "a DEFECTOR IN YOUR OWN CAMP: someone inside is quietly feedi": 15,
+    "SUCCESSION POSITIONING: the top seat will open within a year": 15,
+    "MANAGING UP A VOLATILE PRINCIPAL: you must deliver an unwelc": 15,
+    "ENTERING A HOSTILE ROOM: you are the new leader among entren": 15,
+    "INFLUENCE WITHOUT AUTHORITY: you have no formal power over t": 15,
+    "MEDIATING RIVALS BELOW YOU: two capable lieutenants are at w": 15,
+    "A WHISPER CAMPAIGN AGAINST YOU: someone is quietly poisoning": 15
+  },
+  "generator": "deepseek/deepseek-v4-pro",
+  "judge": "gemini-2.5-pro",
+  "gate": "gemini viab>=4 & dist>=4 & conc>=4",
+  "attempts": 30,
+  "spend_usd": 1.088,
+  "spend_by_model": {
+    "deepseek/deepseek-v4-pro": 0.192,
+    "gemini-2.5-pro": 0.896
+  },
+  "elapsed_s": 642,
+  "complete": true,
+  "positive_judge_means": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.994,
+    "concreteness": 4.992,
+    "decisiveness": 4.978,
+    "foresight": 4.619,
+    "viability": 4.375
+  }
+}

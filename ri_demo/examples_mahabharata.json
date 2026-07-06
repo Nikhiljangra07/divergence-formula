@@ -1,0 +1,112 @@
+[
+  {
+    "id": "MB-01-arjuna-dilemma",
+    "problem": "On the eve of battle a warrior sees his own kinsmen, teachers, and elders arrayed against him, and must decide whether to fight.",
+    "facets": ["his sworn duty to fight a just war", "the kinsmen he would have to kill", "the cost to his soul either way"],
+    "threads": [
+      {"_lens": "duty-act", "text": "Fight, because the duty of his station is to act in a just cause regardless of who stands opposite. It stains him with kin-blood, but a warrior who abandons a just war abandons the order that holds the world together."},
+      {"_lens": "withdraw-ahimsa", "text": "Lay down the bow and refuse to slaughter his own blood. It forfeits the cause and the kingdom, but no victory is worth becoming the man who killed his teachers for a throne."},
+      {"_lens": "seek-settlement", "text": "Force one last negotiation before the first arrow, trading the war for a partition both sides can survive. It may be refused and waste the moment, but a peace that spares the kinsmen is worth one more humiliation to seek."},
+      {"_lens": "renounce-entirely", "text": "Walk away from war and kingdom alike into renunciation. It surrenders every worldly claim, but a man who wants neither victory nor rule cannot be wounded by losing either."}
+    ]
+  },
+  {
+    "id": "MB-02-dice-invitation",
+    "problem": "A just king is invited to a game of dice he knows is rigged, where refusing breaks the warrior code and accepting risks everything he holds.",
+    "facets": ["the code that forbids refusing a challenge", "the certain trap in the game", "the kingdom and family he stakes"],
+    "threads": [
+      {"_lens": "honor-the-code", "text": "Accept, because the code of his caste does not let a kshatriya refuse a summons to play. It walks knowingly into ruin, but a king who breaks his own code to save his comfort has already lost the thing that made him king."},
+      {"_lens": "refuse-for-stakes", "text": "Refuse and bear the dishonor rather than gamble his family and realm. It marks him a coward in the court's eyes, but a name can be rebuilt where a lost kingdom and an enslaved wife cannot."},
+      {"_lens": "accept-but-cap", "text": "Accept the game but bind it with limits agreed before the first throw. It may be rejected as unmanly, but a contest with a floor under the losses keeps the code without staking the world."},
+      {"_lens": "send-no-proxy", "text": "Decline to play himself and let the matter rest on protocol rather than pride. It strains the code's letter, but refusing the personal duel of dice denies the trap the one player it was built to ruin."}
+    ]
+  },
+  {
+    "id": "MB-03-karna-loyalty",
+    "problem": "A great warrior learns on the eve of war that he was born to the enemy's mother — that the men he is sworn to destroy are his own brothers.",
+    "facets": ["the patron who gave him honor and station", "the blood-brothers now revealed", "the war already set in motion"],
+    "threads": [
+      {"_lens": "loyalty-to-patron", "text": "Stand by the patron who raised him from nothing when his own blood had cast him away. It means killing brothers, but loyalty owed to the hand that honored you outweighs a kinship that only claims you now that you are great."},
+      {"_lens": "join-the-blood", "text": "Cross to his brothers and the side of the rightful cause. It betrays a lifelong benefactor, but to knowingly slay one's own kin for a friend's ambition is the deeper treachery."},
+      {"_lens": "withdraw-from-war", "text": "Refuse to fight on either side and remove himself from the slaughter entirely. It abandons both loyalties, but a man torn evenly between two duties may serve honor best by serving neither in blood."},
+      {"_lens": "fight-but-spare", "text": "Keep his place beside the patron but vow to spare the brothers when they meet. It risks his patron's cause and his own life, but it pays the debt of loyalty without paying it in a brother's death."}
+    ]
+  },
+  {
+    "id": "MB-04-bound-vow",
+    "problem": "An elder statesman is bound by an old vow to defend the throne of his house, now occupied by a ruler whose cause he knows to be unjust.",
+    "facets": ["the vow that binds him to the throne", "the injustice of the cause he must serve", "the respect he commands on the field"],
+    "threads": [
+      {"_lens": "keep-the-vow", "text": "Honor the vow and fight for the throne whatever fool sits on it. It puts his sword behind a wrong, but a vow kept only when convenient was never a vow, and his name rests on its being absolute."},
+      {"_lens": "break-for-dharma", "text": "Break the vow and stand aside from an unjust war. It unmakes a lifetime's reputation for constancy, but a promise to a throne cannot bind a man to serve evil knowingly."},
+      {"_lens": "serve-but-restrained", "text": "Fight as the vow demands but refuse to fight to win, leaving the unjust cause to fail on its own. It satisfies neither honor fully, but it keeps the letter of the vow while denying the wrong his full strength."},
+      {"_lens": "counsel-from-within", "text": "Take the field as bound, but spend his standing pressing the ruler toward restraint and a settlement. It compromises his neutrality, but the one voice the unjust king must hear is the elder who fights for him."}
+    ]
+  },
+  {
+    "id": "MB-05-army-or-counsel",
+    "problem": "Before the war a commander may secure the aid of a revered strategist who will lift no weapon, or instead his vast and seasoned army — but not both.",
+    "facets": ["the raw force the army provides", "the unmatched judgment of the strategist", "the war's outcome resting on the choice"],
+    "threads": [
+      {"_lens": "take-the-army", "text": "Take the army and trust to overwhelming force. It leaves the enemy the wiser counsel, but battles are settled by the men on the field, and numbers do not hesitate the way advisors do."},
+      {"_lens": "take-the-counsel", "text": "Take the unarmed strategist and let one mind outmaneuver an army. It concedes the enemy raw strength, but a war is lost in its decisions long before it is lost on its ground."},
+      {"_lens": "angle-for-both", "text": "Maneuver to split the strategist's loyalty or his army from him and claim a share of each. It risks getting neither by grasping, but the prize is decisive if the rival can be made to divide what should stay whole."},
+      {"_lens": "refuse-the-debt", "text": "Take neither and keep the war his own, owing no powerful third party a share of victory. It forgoes a great asset, but an ally strong enough to decide the war is strong enough to dictate the peace."}
+    ]
+  },
+  {
+    "id": "MB-06-half-truth",
+    "problem": "Victory over an invincible teacher requires that the one man famed for never lying speak a falsehood to break the teacher's will.",
+    "facets": ["the lie that alone can end the unbeatable foe", "the reputation for absolute truth", "the lives the prolonged battle costs"],
+    "threads": [
+      {"_lens": "speak-the-lie", "text": "Speak the lie and end the slaughter the teacher prolongs. It spends the one thing he is known for, but a truth-telling that lets thousands die to keep its own record clean has mistaken vanity for virtue."},
+      {"_lens": "refuse-and-bleed", "text": "Refuse the lie and accept that the teacher fights on. It costs the battle and the lives, but a man whose word has never bent is a weapon no defeat can take from him."},
+      {"_lens": "technical-half-truth", "text": "Utter words that are literally true yet built to deceive, so the teacher hears a death that did not happen. It cracks the spirit of his honesty while keeping its letter, but a reputation hollowed from inside still stands to the world."},
+      {"_lens": "find-another-break", "text": "Refuse the lie and hunt instead for the lawful weakness that fells the teacher without deceit. It may not exist in time, but a victory taken cleanly costs nothing that cannot be carried into the peace after."}
+    ]
+  },
+  {
+    "id": "MB-07-elders-silence",
+    "problem": "In a royal assembly the elders watch a grave injustice unfold against a noblewoman, bound by protocol and loyalty to the king committing it.",
+    "facets": ["the injustice happening before them", "the protocol that binds them to the throne", "the honor of the court itself"],
+    "threads": [
+      {"_lens": "intervene-against-king", "text": "Break protocol and stand physically against the king's act. It defies the throne they are sworn to serve, but an elder who will not rise against an evil done in front of him has made his honor a decoration."},
+      {"_lens": "silence-by-protocol", "text": "Hold to protocol and let the king's authority run its course. It abandons the wronged, but a court where elders override the throne on their own conscience is a court that has already fallen to chaos."},
+      {"_lens": "formal-protest", "text": "Refuse silence but confine the resistance to a formal, recorded objection. It stops nothing in the moment, but a protest entered into the record binds the future to remember who consented and who did not."},
+      {"_lens": "leave-the-hall", "text": "Withdraw from the assembly rather than lend their presence to the act. It changes nothing on the floor, but an empty seat where an elder should sit is itself a verdict the court cannot unsee."}
+    ]
+  },
+  {
+    "id": "MB-08-mothers-secret",
+    "problem": "A mother alone knows that the enemy's greatest champion is her own abandoned son, and must decide whether revealing it could halt the coming war.",
+    "facets": ["the secret that could change the war", "the son who does not know his blood", "the cause that the secret could undo"],
+    "threads": [
+      {"_lens": "reveal-to-win-him", "text": "Reveal his birth to the champion himself and turn him to his brothers' side. It risks his rage at a lifetime's abandonment, but a single truth spoken in time may unmake the war's deadliest blade."},
+      {"_lens": "keep-the-secret", "text": "Bury the secret to keep her sons' cause uncomplicated by a brother on the wrong side. It dooms one son to die unknown, but a cause divided by a revelation it cannot absorb may lose more than it saves."},
+      {"_lens": "reveal-after", "text": "Hold the secret until the war is decided, then let the truth be known. It denies the chance to prevent the bloodshed, but a truth released after the fighting cannot be turned into a weapon during it."},
+      {"_lens": "tell-the-eldest", "text": "Confide the secret not to the champion but to her eldest son, and let him choose how it is borne. It shifts an unbearable weight onto another, but a king who knows his enemy is his brother may find a mercy a mother cannot impose."}
+    ]
+  },
+  {
+    "id": "MB-09-exile-ended",
+    "problem": "After years of exile honored to the day, a dispossessed house may demand its full kingdom back by war, or accept a small settlement for peace.",
+    "facets": ["the justice owed them in full", "the war that full justice requires", "the peace a smaller claim could buy"],
+    "threads": [
+      {"_lens": "war-for-justice", "text": "Demand the whole kingdom and take it by war if refused. It buys justice in blood, but a right surrendered to avoid a fight teaches every future thief that patience is all it costs to keep what was stolen."},
+      {"_lens": "accept-five-villages", "text": "Ask only for a token settlement and let peace stand over full restitution. It accepts a lasting wrong, but no measure of justice is worth the ruin of both houses and the generation between them."},
+      {"_lens": "negotiate-upward", "text": "Open by demanding the whole, intending to settle for a substantial share short of war. It risks the bluff being called, but a claim pressed hard and then eased can win most of the right without paying war's full price."},
+      {"_lens": "wait-and-build", "text": "Make no demand yet and spend the season gathering allies and strength. It lets the usurper consolidate, but a claim pressed from weakness invites the very war it cannot yet win."}
+    ]
+  },
+  {
+    "id": "MB-10-strategic-sacrifice",
+    "problem": "A commander can send a powerful half-blood son to certain death, knowing the sacrifice will force the enemy to waste a one-use divine weapon meant for the army's true hope.",
+    "facets": ["the son who would be spent", "the divine weapon that must be drawn out", "the greater champion whose life the weapon threatens"],
+    "threads": [
+      {"_lens": "spend-the-son", "text": "Send the son to bait the weapon and save the greater champion. It buys victory with a child's life, but a commander who will not spend one life to save the war's decisive one has chosen sentiment over every life the war will otherwise take."},
+      {"_lens": "preserve-the-son", "text": "Refuse to spend the son and gamble that the champion survives the weapon another way. It keeps faith with his blood, but the gamble stakes the whole war on a hope no plan supports."},
+      {"_lens": "find-another-bait", "text": "Hunt for a different sacrifice that can draw the weapon without spending his own son. It costs precious time the battle may not allow, but a weapon drawn by another hand spares the one loss he could never undo."},
+      {"_lens": "withhold-and-endure", "text": "Draw back from the engagement entirely rather than force the lethal choice tonight. It surrenders the field's momentum, but a choice refused under pressure can sometimes be dissolved by a battle that moves elsewhere."}
+    ]
+  }
+]

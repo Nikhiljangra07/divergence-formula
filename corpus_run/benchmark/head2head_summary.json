@@ -1,0 +1,72 @@
+{
+  "judge": "google/gemini-2.5-pro",
+  "overall_trained": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.67,
+    "concreteness": 4.15,
+    "decisiveness": 4.71,
+    "foresight": 2.5,
+    "overall": 4.2,
+    "n": 48
+  },
+  "overall_haiku": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.49,
+    "concreteness": 4.77,
+    "decisiveness": 4.89,
+    "foresight": 4.3,
+    "overall": 4.69,
+    "n": 47
+  },
+  "spend_usd": 1.079,
+  "by_category": {
+    "business": {
+      "trained_overall": 4.43,
+      "haiku_overall": 4.8,
+      "trained_distinct": 4.83,
+      "haiku_distinct": 4.67
+    },
+    "career": {
+      "trained_overall": 4.33,
+      "haiku_overall": 4.48,
+      "trained_distinct": 5.0,
+      "haiku_distinct": 4.0
+    },
+    "creative": {
+      "trained_overall": 4.57,
+      "haiku_overall": 4.8,
+      "trained_distinct": 5.0,
+      "haiku_distinct": 4.5
+    },
+    "ethics": {
+      "trained_overall": 4.43,
+      "haiku_overall": 4.83,
+      "trained_distinct": 4.83,
+      "haiku_distinct": 5.0
+    },
+    "finance": {
+      "trained_overall": 3.87,
+      "haiku_overall": 4.47,
+      "trained_distinct": 4.33,
+      "haiku_distinct": 3.83
+    },
+    "health_life": {
+      "trained_overall": 3.8,
+      "haiku_overall": 4.77,
+      "trained_distinct": 3.83,
+      "haiku_distinct": 4.67
+    },
+    "negotiation": {
+      "trained_overall": 3.93,
+      "haiku_overall": 4.7,
+      "trained_distinct": 4.5,
+      "haiku_distinct": 5.0
+    },
+    "relationship": {
+      "trained_overall": 4.27,
+      "haiku_overall": 4.63,
+      "trained_distinct": 5.0,
+      "haiku_distinct": 4.17
+    }
+  }
+}

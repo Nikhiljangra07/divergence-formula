@@ -1,0 +1,26 @@
+{
+  "generated": 21,
+  "target": 72,
+  "passers": 5,
+  "near_miss": 0,
+  "rejects": 16,
+  "pass_rate": 0.238,
+  "emergent_source_mix": {
+    "JPM": 2,
+    "PR": 1,
+    "MB": 1,
+    "RI": 1
+  },
+  "passer_means": {
+    "volume": -6.057,
+    "ground": 0.466,
+    "whole": 0.416,
+    "pairdist": 0.39
+  },
+  "reject_reasons": {
+    "consequence": 16,
+    "ground": 1
+  },
+  "spend_usd": 0.232,
+  "dsv4_calls": 565
+}

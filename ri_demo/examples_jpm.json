@@ -1,0 +1,112 @@
+[
+  {
+    "id": "JPM-01-rival-pregnancy",
+    "problem": "A favored concubine becomes pregnant, threatening the principal wife's standing and unsettling the whole household hierarchy.",
+    "facets": ["the unborn child's claim on the household's future", "the principal wife's slipping authority", "the husband's shifting favor"],
+    "threads": [
+      {"_lens": "erode-her-standing", "text": "Undercut the concubine's social standing quietly so the pregnancy elevates her less than it should. It risks exposure as spite, but it keeps the hierarchy from reordering around a single womb."},
+      {"_lens": "ally-with-principal", "text": "Bind yourself to the principal wife and make her cause your own. You surrender independence, but you stand behind the household's strongest seat instead of being crushed beneath it."},
+      {"_lens": "reclaim-favor", "text": "Compete directly for the husband's attention and pull his favor back through presence and charm. It is exhausting and uncertain, but favor freely given outweighs any claim a child can press."},
+      {"_lens": "engineer-misstep", "text": "Wait for the concubine to overreach in her new confidence, then let her own error discredit her. It demands patience and may never come, but a fall she causes herself leaves your hands clean."}
+    ]
+  },
+  {
+    "id": "JPM-02-magistrate-bribe",
+    "problem": "A magistrate must be bribed to bury a legal problem, but the sum is large and hands him lasting leverage over the household.",
+    "facets": ["the legal danger that must be closed", "the cost of the bribe", "the leverage the official gains over you"],
+    "threads": [
+      {"_lens": "pay-in-full", "text": "Pay the whole sum and close the matter at once. It empties the coffers and admits guilt to one man, but it ends the danger before it can grow legs."},
+      {"_lens": "split-as-hostage", "text": "Pay half now and hold the rest, so each of you holds something the other fears. It leaves the matter half-open, but it makes the official's silence a thing he must keep buying too."},
+      {"_lens": "intermediary-deniability", "text": "Route the money through a go-between so no payment ties to your name. It costs a cut and trusts a third mouth, but if it sours, nothing leads back to your gate."},
+      {"_lens": "cultivate-not-pay", "text": "Replace the lump sum with a stream of small favors that make the official a friend, not a creditor. It is slower and never fully resolves, but a friend protects what a bribed stranger merely tolerates."}
+    ]
+  },
+  {
+    "id": "JPM-03-maid-who-saw",
+    "problem": "A maid has witnessed an affair whose exposure would shatter an alliance the household depends on.",
+    "facets": ["the secret she can speak", "the alliance the secret would break", "the maid's own loyalty and price"],
+    "threads": [
+      {"_lens": "elevate-to-buy", "text": "Raise her station so her loyalty is bought with comfort she will not risk losing. It rewards a witness and may breed others, but a maid with much to lose guards your secret as her own."},
+      {"_lens": "marry-away", "text": "Arrange a respectable marriage that carries her out of the household entirely. It costs a dowry and a favor, but distance dissolves the danger more gently than any threat."},
+      {"_lens": "shared-complicity", "text": "Draw her into a small complicity of her own, so she cannot speak without indicting herself. It deepens the web and could backfire, but a partner in guilt is a partner in silence."},
+      {"_lens": "pre-discredit", "text": "Seed doubts about her honesty now, so that if she ever speaks, no one believes her. It is cruel and may invite sympathy for her, but a discredited witness carries no weight when it matters."}
+    ]
+  },
+  {
+    "id": "JPM-04-questionable-partner",
+    "problem": "A lucrative trade partnership is offered by a man whose reputation could stain yours by association.",
+    "facets": ["the profit the partnership promises", "the partner's tainted reputation", "your own name and standing"],
+    "threads": [
+      {"_lens": "profit-hidden", "text": "Take the profit but keep the association out of public view. It demands constant concealment, but it captures the gain while your name stays clean in the eyes that matter."},
+      {"_lens": "refuse-for-name", "text": "Decline and protect your reputation outright. You forfeit real money, but reputation, once spent, buys back at a far worse rate than coin."},
+      {"_lens": "structure-the-blame", "text": "Enter, but arrange the venture so any disgrace falls on him alone. It is intricate and could unravel, but it lets you hold the upside while he holds the risk."},
+      {"_lens": "use-then-exit", "text": "Take the partnership for a short, sharp season and leave before exposure ripens. You cap the winnings, but you are gone before the association can harden into a stain."}
+    ]
+  },
+  {
+    "id": "JPM-05-waning-favor",
+    "problem": "A wife sees her husband's attention drifting to a new concubine and her own influence beginning to wane.",
+    "facets": ["the husband's affection now turning elsewhere", "her present influence over the household", "her long-term security"],
+    "threads": [
+      {"_lens": "compete-for-desire", "text": "Fight for his desire directly, with charm and attentiveness renewed. It is uncertain and tiring, but desire regained is the most immediate lever in this house."},
+      {"_lens": "control-the-money", "text": "Turn from his affection to the household's purse and ledgers, where power outlasts feeling. You concede the bedchamber, but whoever holds the money holds the house when desire has moved on."},
+      {"_lens": "befriend-the-favorite", "text": "Make a friend of the new favorite before she becomes a rival. It galls the pride, but an ally in the ascendant seat is safer than an enemy you cannot displace."},
+      {"_lens": "anchor-with-heir", "text": "Secure permanence by producing or promoting an heir who roots you in the household's future. It is slow and not wholly in your hands, but an heir is a claim no passing concubine can outweigh."}
+    ]
+  },
+  {
+    "id": "JPM-06-the-loan",
+    "problem": "A relative asks for a loan you can easily afford, but granting it sets a precedent and refusing it signals weakness.",
+    "facets": ["the money itself, easily spared", "the precedent a yes would set", "the face lost by a refusal"],
+    "threads": [
+      {"_lens": "lend-with-terms", "text": "Lend it, but with visible terms that mark a boundary for next time. It strains the warmth between you, but it grants the help while teaching that your purse is not a well."},
+      {"_lens": "refuse-with-face", "text": "Refuse behind a graceful, unanswerable excuse. You risk resentment, but you close the door without ever appearing to shut it."},
+      {"_lens": "lend-less-as-test", "text": "Give less than asked and watch how the shortfall is received. It may offend, but the reaction tells you what the relationship is truly worth before you risk more."},
+      {"_lens": "gift-to-obligate", "text": "Make it an outright gift, converting money you can spare into a debt of gratitude. You will never see the coin again, but you buy a loyalty that may pay back when it counts."}
+    ]
+  },
+  {
+    "id": "JPM-07-rivals-gift",
+    "problem": "A household rival sends an unusually lavish gift — almost certainly a move to obligate or disarm you.",
+    "facets": ["the gift's open generosity", "the obligation it silently imposes", "the rivalry it is meant to soften or mask"],
+    "threads": [
+      {"_lens": "outgive-to-reset", "text": "Accept warmly and return a richer gift, resetting the ledger to zero. It costs more than was sent, but it refuses the debt and signals you will not be bought cheaply."},
+      {"_lens": "decline-the-debt", "text": "Decline with grace and avoid the obligation altogether. You forgo the goodwill of acceptance, but you owe nothing to a hand that meant to bind you."},
+      {"_lens": "accept-and-expose", "text": "Accept it, then let others see the lavishness for the maneuver it is. It risks looking ungrateful, but a generosity dragged into daylight loses its quiet power over you."},
+      {"_lens": "accept-and-bide", "text": "Take the gift and owe nothing until a moment of your own choosing. It carries the appearance of debt, but a debt repaid on your terms is no leash at all."}
+    ]
+  },
+  {
+    "id": "JPM-08-skimming-steward",
+    "problem": "A trusted senior servant is quietly skimming, yet replacing him risks household disorder and he knows too many of your secrets.",
+    "facets": ["the steady loss to his skimming", "the disorder his removal would cause", "the secrets he carries"],
+    "threads": [
+      {"_lens": "confront-to-bind", "text": "Confront him privately and convert the exposure into deeper dependence on your mercy. It warns him you see all, and it turns a thief into a man who serves to keep your silence."},
+      {"_lens": "replace-slowly", "text": "Ease in a successor while quietly securing everything he knows. It is slow and he may sense it, but it removes the loss without the shock of a sudden fall."},
+      {"_lens": "tolerate-as-price", "text": "Let the skimming stand as the quiet cost of a household that runs. You bleed a little steadily, but you keep the order and loyalty a competent steward provides."},
+      {"_lens": "leverage-the-theft", "text": "Hold the proof of his theft and use it to bind him past any thought of leaving or betraying. It keeps a thief in place, but it converts his crime into your hold over him."}
+    ]
+  },
+  {
+    "id": "JPM-09-propriety-rumor",
+    "problem": "A rumor of impropriety in the household is spreading among the neighboring wives.",
+    "facets": ["the impropriety the rumor points at", "the neighbor wives carrying it", "the household's public reputation"],
+    "threads": [
+      {"_lens": "display-propriety", "text": "Stage a lavish, public show of correctness and piety to drown the whisper in spectacle. It spends money and effort, but a loud display of virtue crowds out a quiet accusation."},
+      {"_lens": "silence-the-source", "text": "Find the wife at the rumor's root and quiet her through social pressure. It risks a sharper backlash if clumsy, but it stops the spread where appeals to the crowd cannot."},
+      {"_lens": "buy-reputation", "text": "Arrange a prestigious marriage or alliance that buys the household standing the rumor cannot dent. It is a slow and costly answer, but reputation built outlasts reputation merely defended."},
+      {"_lens": "wait-for-replacement", "text": "Do nothing and let a louder scandal elsewhere pull the talk away. You endure the murmuring for a time, but gossip starved of fresh fuel always moves to the next fire."}
+    ]
+  },
+  {
+    "id": "JPM-10-inheritance-jockey",
+    "problem": "With the patriarch ailing, the principal wife and concubines jockey over inheritance and the household's future.",
+    "facets": ["the patriarch's still-unwritten favor", "the servants who will execute his wishes", "the money and ledgers in play"],
+    "threads": [
+      {"_lens": "secure-written-favor", "text": "Win the patriarch's written word of favor while he still has the strength to give it. It risks seeming grasping at the deathbed, but a promise in ink outweighs every spoken one."},
+      {"_lens": "ally-the-servants", "text": "Befriend the servants and stewards who will carry out his final wishes. It diverts attention from the man himself, but those who execute the will quietly shape it."},
+      {"_lens": "control-the-ledgers", "text": "Take command of the money and accounts before the death arrives. You ignore sentiment for substance, but whoever holds the ledgers at the end holds the household after it."},
+      {"_lens": "make-heir-indispensable", "text": "Position your son as the one without whom the household cannot continue. It is slow and rests partly on the boy, but an indispensable heir needs no one's permission to inherit."}
+    ]
+  }
+]

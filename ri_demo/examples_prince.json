@@ -1,0 +1,112 @@
+[
+  {
+    "id": "PR-01-hold-new-province",
+    "problem": "A prince has annexed a province that keeps its own language, laws, and customs, and must now hold it against unrest.",
+    "facets": ["the foreign customs that resist his rule", "the cost of occupation over time", "the loyalty he cannot assume"],
+    "threads": [
+      {"_lens": "go-and-dwell", "text": "Take up residence in the province himself, so disorder is seen and checked at its source. It ties him to one place and exposes his person, but presence smothers revolt that distance lets grow."},
+      {"_lens": "plant-colonies", "text": "Settle loyal colonies at a few key points instead of garrisoning the whole. It injures the few they displace, but it holds the land cheaply and roots his interest in its soil."},
+      {"_lens": "rule-through-locals", "text": "Keep the existing powerful families in place as his instruments, bound to his favor. It leaves old loyalties intact, but it governs through hands the people already obey."},
+      {"_lens": "extinguish-the-old", "text": "Destroy the former ruling structure entirely so no rival center of obedience survives. It is harsh and breeds early hatred, but a province with no old master cannot rally to one."}
+    ]
+  },
+  {
+    "id": "PR-02-cruelty-or-clemency",
+    "problem": "A newly seized, disorderly territory must be brought to order, and the prince must choose how heavily to punish.",
+    "facets": ["the disorder that demands a remedy", "the hatred that punishment can breed", "the stability he needs to last"],
+    "threads": [
+      {"_lens": "cruelty-all-at-once", "text": "Deliver all necessary severity in a single stroke at the start, then never again. It stains the beginning of his rule, but injuries done together are tasted less and resented shorter."},
+      {"_lens": "measured-gradual", "text": "Punish slowly and proportionately as offenses arise. It looks just in each instance, but a cruelty renewed daily keeps the wound forever open and fear forever fresh."},
+      {"_lens": "clemency-to-bind", "text": "Win the territory with mercy and let gratitude do the work of force. It risks being read as weakness, but a people spared may guard a prince no garrison could."},
+      {"_lens": "deputy-then-disown", "text": "Let a hard deputy impose the cruelty, then publicly break him to cleanse the prince's name. It sacrifices a useful servant, but the order is gained and the hatred buried with another man."}
+    ]
+  },
+  {
+    "id": "PR-03-feared-or-loved",
+    "problem": "A new prince must secure the obedience of subjects who do not yet know whether to dread or adore him.",
+    "facets": ["the obedience he must secure now", "the hatred he must never earn", "the durability of the bond he forms"],
+    "threads": [
+      {"_lens": "be-feared-not-hated", "text": "Choose to be feared, but keep scrupulously off the property and the women of his subjects so fear never curdles into hatred. It forfeits warmth, but fear he controls is steadier than love he cannot command."},
+      {"_lens": "buy-love-by-giving", "text": "Cultivate love through visible generosity and benefit. It opens the treasury and may not hold in adversity, but a prince loved moves his people without ever drawing the sword."},
+      {"_lens": "anchor-on-justice", "text": "Bind both fear and affection to reliable, impartial justice that every man can predict. It is slow to build, but law obeyed for its own sake outlasts both the loved prince and the feared one."},
+      {"_lens": "rule-by-spectacle", "text": "Govern through grand displays of strength and consequence that fix his image in every mind. It spends much on show, but a prince who fills the imagination rarely has to fill the prisons."}
+    ]
+  },
+  {
+    "id": "PR-04-mercenary-problem",
+    "problem": "The state's defense rests on hired mercenary captains whose loyalty lasts exactly as long as their pay.",
+    "facets": ["the immediate defense the mercenaries provide", "their loyalty that pay alone secures", "the prince's dependence on borrowed arms"],
+    "threads": [
+      {"_lens": "raise-own-arms", "text": "Disband the mercenaries and raise a militia of his own subjects. It is slow and weak at first, but arms that belong to the prince do not change sides for a better wage."},
+      {"_lens": "bind-with-stakes", "text": "Keep the captains but give each a stake — land, family, position — that they would lose by betrayal. It rewards men who may still leave, but it weights their treachery with a price."},
+      {"_lens": "divide-command", "text": "Hire still, but split command so no captain holds enough force to threaten the throne. It blunts the army's coordination, but it ensures no single hired hand can close it around his neck."},
+      {"_lens": "shelter-under-ally", "text": "Lean on the protection of a genuinely stronger power instead of his own borrowed arms. It trades independence for safety, but a great ally's shadow deters what his thin forces cannot."}
+    ]
+  },
+  {
+    "id": "PR-05-overmighty-noble",
+    "problem": "A great noble who helped the prince seize power now expects a share of it commensurate with his aid.",
+    "facets": ["the debt owed for past help", "the threat a rewarded noble becomes", "the loyalty of lesser men watching"],
+    "threads": [
+      {"_lens": "reward-lavishly", "text": "Reward him richly and openly to keep his loyalty bought and content. It strengthens a man who could rival him, but a satisfied great noble defends the order that enriches him."},
+      {"_lens": "reduce-before-rival", "text": "Diminish him quietly before his power outgrows the prince's own. It repays aid with injury and risks his revolt, but a benefactor too strong is the surest author of a prince's fall."},
+      {"_lens": "balance-with-rivals", "text": "Keep him useful but raise counterweights so he is checked by men as great as himself. It crowds the court with ambition, but a noble watched by equals cannot move against the crown alone."},
+      {"_lens": "elevate-the-low", "text": "Raise lesser men who owe everything to the prince and nothing to the old houses. It slights the great noble and may sour him, but servants made from nothing are loyal to the hand that made them."}
+    ]
+  },
+  {
+    "id": "PR-06-keeping-faith",
+    "problem": "A promise the prince made under pressure now binds him, though the circumstances that justified it have entirely changed.",
+    "facets": ["the promise that constrains him", "the reputation that breaking it risks", "the advantage that keeping it forfeits"],
+    "threads": [
+      {"_lens": "keep-faith", "text": "Honor the promise and build a name for reliability. It surrenders the present advantage, but a prince trusted is dealt with openly where a faithless one is forever guarded against."},
+      {"_lens": "break-and-mask", "text": "Break the promise where keeping it would ruin him, but cloak the breach so well that none can name it. It courts disgrace if seen through, but the prince who must, and does it unseen, keeps both the gain and the name."},
+      {"_lens": "renegotiate-openly", "text": "Go to the other party and reset the terms to the changed world. It admits the promise no longer holds, but a bargain remade by consent breaks no faith at all."},
+      {"_lens": "delay-to-lapse", "text": "Neither keep nor break it, but delay until the obligation quietly expires of its own irrelevance. It frustrates the other party, but a promise allowed to wither costs no open betrayal."}
+    ]
+  },
+  {
+    "id": "PR-07-deposed-heirs",
+    "problem": "The family the prince displaced still holds hereditary claims and the lingering sympathy of the people.",
+    "facets": ["the heirs' standing claim to rule", "the people's old sympathy for them", "the danger of a rallying point"],
+    "threads": [
+      {"_lens": "extinguish-the-line", "text": "End the bloodline so no legitimate claimant survives to rally to. It is the darkest course and stains him deeply, but a claim with no claimant cannot be raised against him."},
+      {"_lens": "marry-into-it", "text": "Absorb the old line by marriage, making its claim his own. It binds him to former rivals, but an heir of both houses inherits the loyalty of each."},
+      {"_lens": "exile-far", "text": "Send the heirs to a distance too great for their sympathy to reach. It leaves them alive to scheme, but a claimant abroad stirs a people who cannot see him."},
+      {"_lens": "managed-figurehead", "text": "Keep one heir as a controlled figurehead whose legitimacy now serves the prince. It preserves a dangerous symbol, but a rival's bloodline flying the prince's banner disarms the very sympathy it carried."}
+    ]
+  },
+  {
+    "id": "PR-08-fortresses-or-goodwill",
+    "problem": "Facing both internal revolt and external attack, the prince must decide what he truly defends behind.",
+    "facets": ["the threat from within his own people", "the threat from foreign powers", "the message his defenses send"],
+    "threads": [
+      {"_lens": "build-fortresses", "text": "Raise strong fortresses to hold against rebellion and invasion alike. They give a refuge and a threat, but stone walls also tell the people the prince expects to be hated."},
+      {"_lens": "people-as-fortress", "text": "Forgo fortresses and make the people's goodwill the wall. It leaves him bare to a sudden blow, but no fortress holds against a populace that wants him, and none saves a prince a populace wants gone."},
+      {"_lens": "selective-both", "text": "Build against the foreign threat where invasion comes, but leave the loyal interior open. It splits the budget and the message, but it meets each danger with the defense that danger calls for."},
+      {"_lens": "stay-mobile", "text": "Keep no fixed stronghold and rely on a field force that can strike where needed. It abandons the safety of walls, but a prince who cannot be besieged cannot be cornered."}
+    ]
+  },
+  {
+    "id": "PR-09-honest-counsel",
+    "problem": "The prince needs truthful advice but is surrounded by flatterers, and inviting candor risks eroding his authority.",
+    "facets": ["the flattery that blinds him", "the truth he needs to govern", "the authority candor could undermine"],
+    "threads": [
+      {"_lens": "licensed-truth-tellers", "text": "Appoint a few wise men and grant them alone the freedom to speak the truth when he asks it. It narrows counsel to a chosen few, but truth on the prince's terms informs him without inviting every tongue."},
+      {"_lens": "open-council", "text": "Throw counsel open and let many voices contend before him. It dilutes his mystery and slows decision, but a wide field of advice buries no single flatterer's lie."},
+      {"_lens": "decide-after-hearing", "text": "Hear all freely but make plain that the judgment is his alone and final. It risks advisors who stop trying, but counsel heard and then owned keeps both the truth and the throne's last word."},
+      {"_lens": "test-with-traps", "text": "Plant deliberate errors to see which advisors flatter them and which correct them. It breeds suspicion if discovered, but a tested council reveals the honest men before a real crisis does."}
+    ]
+  },
+  {
+    "id": "PR-10-fortune-or-caution",
+    "problem": "A sudden chance to expand the state appears, but fortune is fickle and the moment may not return.",
+    "facets": ["the opportunity fortune now offers", "the fickleness that could reverse it", "the gains already in hand to protect"],
+    "threads": [
+      {"_lens": "strike-boldly", "text": "Seize the moment with force while fortune favors the bold. It risks all on a turning wheel, but fortune, like a river, is mastered by those who move before it floods."},
+      {"_lens": "fortify-first", "text": "Secure and digest existing gains before reaching for more. It may let the chance pass, but a state built on consolidated ground does not collapse when fortune withdraws her hand."},
+      {"_lens": "limited-commitment", "text": "Commit only a measured part, enough to take the chance without staking the whole. It wins less if it succeeds, but it leaves the prince standing if fortune turns against him."},
+      {"_lens": "wait-for-surer-moment", "text": "Hold back for an opportunity less owed to luck and more to certainty. It forfeits this opening, but a prince who acts only on solid ground is not undone when the wheel comes round."}
+    ]
+  }
+]

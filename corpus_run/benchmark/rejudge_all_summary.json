@@ -1,0 +1,46 @@
+{
+  "3.4B-sft": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.85,
+    "concreteness": 4.21,
+    "decisiveness": 4.75,
+    "foresight": 3.81,
+    "viability": 2.81,
+    "overall": 4.24,
+    "dist>=4%": 100.0,
+    "n": 48
+  },
+  "hs_blend(r7)": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.73,
+    "concreteness": 4.75,
+    "decisiveness": 4.73,
+    "foresight": 4.21,
+    "viability": 3.46,
+    "overall": 4.48,
+    "dist>=4%": 93.8,
+    "n": 48
+  },
+  "hs_blend2(r8)": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.9,
+    "concreteness": 4.83,
+    "decisiveness": 4.83,
+    "foresight": 4.21,
+    "viability": 3.56,
+    "overall": 4.55,
+    "dist>=4%": 97.9,
+    "n": 48
+  },
+  "haiku-4.5(fresh)": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.75,
+    "concreteness": 4.98,
+    "decisiveness": 4.83,
+    "foresight": 4.52,
+    "viability": 4.25,
+    "overall": 4.72,
+    "dist>=4%": 93.8,
+    "n": 48
+  }
+}

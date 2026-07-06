@@ -1,0 +1,17 @@
+{
+  "target": 40,
+  "generated": 22,
+  "passers": 12,
+  "pass_rate": 0.545,
+  "v2_means": {
+    "pairdist": 0.3884,
+    "angle_pairdist": 0.4613,
+    "ground": 0.5624,
+    "whole": 0.444,
+    "volume": -6.0839,
+    "distinct_families": 4.0
+  },
+  "v1_thread_pairdist_A": 0.385,
+  "v1_angle_pairdist_A": 0.629,
+  "spend_usd": 0.257
+}

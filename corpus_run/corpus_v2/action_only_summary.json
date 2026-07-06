@@ -1,0 +1,41 @@
+{
+  "n": 186,
+  "spend_usd": 0.429,
+  "extraction": {
+    "threads": 744,
+    "refused_to_sent1": 1,
+    "null_to_sent1": 0,
+    "note": "'action' = refusal-free (refused/null fall back to verbatim first sentence)"
+  },
+  "variants": {
+    "full": {
+      "mean": 0.3818,
+      "median": 0.3789,
+      "min": 0.3,
+      "max": 0.572
+    },
+    "sent1": {
+      "mean": 0.4661,
+      "median": 0.4674,
+      "min": 0.342,
+      "max": 0.635
+    },
+    "action": {
+      "mean": 0.4836,
+      "median": 0.4844,
+      "min": 0.341,
+      "max": 0.655
+    },
+    "angle": {
+      "mean": 0.4784,
+      "median": 0.4843,
+      "min": 0.301,
+      "max": 0.644
+    }
+  },
+  "action_vs_full": {
+    "mean_delta": 0.1018,
+    "pct_improved": 100.0,
+    "pct_improved_big(>0.05)": 90.3
+  }
+}

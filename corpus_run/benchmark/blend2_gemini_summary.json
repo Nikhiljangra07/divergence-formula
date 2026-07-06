@@ -1,0 +1,25 @@
+{
+  "label": "hs_blend2 (Gemini bench-48)",
+  "agg": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.89,
+    "concreteness": 4.87,
+    "decisiveness": 4.89,
+    "foresight": 4.32,
+    "viability": 3.7,
+    "overall": 4.61,
+    "dist>=4%": 97.9,
+    "viab>=4%": 55.3,
+    "n": 47
+  },
+  "by_category": {
+    "business": 4.75,
+    "career": 4.53,
+    "creative": 4.73,
+    "ethics": 4.47,
+    "finance": 4.67,
+    "health_life": 4.67,
+    "negotiation": 4.31,
+    "relationship": 4.8
+  }
+}

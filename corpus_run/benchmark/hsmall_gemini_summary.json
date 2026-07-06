@@ -1,0 +1,35 @@
+{
+  "hs_base": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 3.06,
+    "concreteness": 4.35,
+    "decisiveness": 4.21,
+    "foresight": 3.65,
+    "viability": 3.73,
+    "overall": 4.0,
+    "dist>=4%": 35.4,
+    "n": 48
+  },
+  "hs_v5": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.87,
+    "concreteness": 4.83,
+    "decisiveness": 4.77,
+    "foresight": 4.4,
+    "viability": 3.47,
+    "overall": 4.56,
+    "dist>=4%": 100.0,
+    "n": 47
+  },
+  "hs_blend": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.81,
+    "concreteness": 4.75,
+    "decisiveness": 4.85,
+    "foresight": 4.12,
+    "viability": 3.58,
+    "overall": 4.52,
+    "dist>=4%": 95.8,
+    "n": 48
+  }
+}

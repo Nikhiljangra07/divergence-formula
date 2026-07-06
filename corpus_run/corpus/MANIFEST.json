@@ -1,0 +1,93 @@
+{
+  "set_a_with_consequence": {
+    "setting": "set_a",
+    "dir": "set_a_with_consequence",
+    "consequence_gate": true,
+    "target": 200,
+    "passers": 212,
+    "near_miss": 24,
+    "rejects": 51,
+    "passer_means": {
+      "volume": -6.078,
+      "ground": 0.531,
+      "whole": 0.419,
+      "pairdist": 0.385
+    },
+    "source_mix": {
+      "PR": 59,
+      "MB": 49,
+      "JPM": 51,
+      "RI": 53
+    },
+    "themes_covered": 51,
+    "reject_reasons": {
+      "consequence": 43,
+      "pairdist": 3,
+      "incomplete": 21,
+      "length": 8,
+      "ground": 3,
+      "whole": 1
+    },
+    "spend_usd": 1.561,
+    "dsv4_calls": 1658,
+    "seconds": 2961
+  },
+  "set_b_without_consequence": {
+    "setting": "set_b",
+    "dir": "set_b_without_consequence",
+    "consequence_gate": false,
+    "target": 200,
+    "passers": 204,
+    "near_miss": 7,
+    "rejects": 15,
+    "passer_means": {
+      "volume": -6.082,
+      "ground": 0.5,
+      "whole": 0.423,
+      "pairdist": 0.404
+    },
+    "source_mix": {
+      "RI": 48,
+      "MB": 51,
+      "JPM": 55,
+      "PR": 50
+    },
+    "themes_covered": 52,
+    "reject_reasons": {
+      "incomplete": 15
+    },
+    "spend_usd": 2.099,
+    "dsv4_calls": 1867,
+    "seconds": 4461
+  },
+  "hard_negatives": {
+    "total_negatives": 97,
+    "premium_near_miss": 31,
+    "per_set": {
+      "set_a": {
+        "rejects": 51,
+        "near_miss": 24
+      },
+      "set_b": {
+        "rejects": 15,
+        "near_miss": 7
+      }
+    },
+    "fail_tally": {
+      "consequence": 43,
+      "pairdist": 34,
+      "incomplete": 36,
+      "length": 8,
+      "ground": 3,
+      "whole": 1
+    }
+  },
+  "thresholds": {
+    "VOL_GATE": -8.0,
+    "EPS_G": 0.27,
+    "EPS_W": 0.18,
+    "PD_FLOOR": 0.3,
+    "MIN_WORDS": 18
+  },
+  "model": "deepseek/deepseek-v4-pro"
+}

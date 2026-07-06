@@ -1,0 +1,28 @@
+{
+  "setting": "set_b",
+  "dir": "set_b_without_consequence",
+  "consequence_gate": false,
+  "target": 200,
+  "passers": 204,
+  "near_miss": 7,
+  "rejects": 15,
+  "passer_means": {
+    "volume": -6.082,
+    "ground": 0.5,
+    "whole": 0.423,
+    "pairdist": 0.404
+  },
+  "source_mix": {
+    "RI": 48,
+    "MB": 51,
+    "JPM": 55,
+    "PR": 50
+  },
+  "themes_covered": 52,
+  "reject_reasons": {
+    "incomplete": 15
+  },
+  "spend_usd": 2.099,
+  "dsv4_calls": 1867,
+  "seconds": 4461
+}

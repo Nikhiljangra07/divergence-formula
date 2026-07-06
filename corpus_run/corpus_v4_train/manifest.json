@@ -1,0 +1,23 @@
+{
+  "goal": 201,
+  "generated": 201,
+  "by_source": {
+    "TH": 51,
+    "PR": 50,
+    "JPM": 50,
+    "RI": 50
+  },
+  "gate": "distinct>=4 & concrete>=4",
+  "attempts": 339,
+  "spend_usd": 1.634,
+  "elapsed_s": 3499,
+  "complete": true,
+  "judge_means": {
+    "admits_multiplicity": 4.264,
+    "distinctness": 4.935,
+    "concreteness": 4.891,
+    "decisiveness": 4.905,
+    "foresight": 2.91
+  },
+  "worker": "v4 precision (2-sentence, no foresight)"
+}

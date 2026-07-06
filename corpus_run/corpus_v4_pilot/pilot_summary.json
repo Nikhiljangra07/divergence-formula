@@ -1,0 +1,18 @@
+{
+  "n": 55,
+  "spend_usd": 0.398,
+  "judge_means": {
+    "admits_multiplicity": 4.2,
+    "distinctness": 4.75,
+    "concreteness": 4.85,
+    "decisiveness": 4.89,
+    "foresight": 2.87
+  },
+  "gate_yield(distinct>=4 & concrete>=4)": 90.9,
+  "by_source_distinct": {
+    "JPM": 4.79,
+    "PR": 4.67,
+    "RI": 4.85,
+    "TH": 4.69
+  }
+}

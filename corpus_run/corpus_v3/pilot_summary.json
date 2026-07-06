@@ -1,0 +1,23 @@
+{
+  "target": 50,
+  "generated": 79,
+  "spend_usd": 1.275,
+  "judge_means": {
+    "admits_multiplicity": 4.43,
+    "distinctness": 4.709,
+    "concreteness": 4.57,
+    "decisiveness": 4.734,
+    "foresight": 3.165
+  },
+  "judge_overall_mean": 4.322,
+  "geom_means": {
+    "full_pd": 0.312,
+    "angle_pd": 0.416,
+    "distinct_families": 4.0
+  },
+  "pass_rates": {
+    "min>=3": 89.9,
+    "min>=4": 26.6,
+    "distinct>=4": 91.1
+  }
+}

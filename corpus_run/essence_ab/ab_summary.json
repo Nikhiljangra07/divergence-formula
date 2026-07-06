@@ -1,0 +1,38 @@
+{
+  "judge": "gemini-2.5-pro",
+  "themes": 12,
+  "elapsed_s": 157,
+  "spend_usd_total": 0.845,
+  "spend_usd_by_model": {
+    "claude-sonnet-5": 0.486,
+    "gemini-2.5-pro": 0.359
+  },
+  "deepseek/deepseek-v4-pro": {
+    "n_ok": 12,
+    "gen_failures": {},
+    "judge_means": {
+      "admits_multiplicity": 5.0,
+      "distinctness": 5.0,
+      "concreteness": 5.0,
+      "decisiveness": 4.75,
+      "foresight": 4.5,
+      "viability": 4.58
+    },
+    "overall": 4.8,
+    "gate_yield_pct": 91.7
+  },
+  "claude-sonnet-5": {
+    "n_ok": 12,
+    "gen_failures": {},
+    "judge_means": {
+      "admits_multiplicity": 5.0,
+      "distinctness": 4.67,
+      "concreteness": 4.92,
+      "decisiveness": 5.0,
+      "foresight": 4.67,
+      "viability": 4.5
+    },
+    "overall": 4.79,
+    "gate_yield_pct": 91.7
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "n": 57,
+  "spend_usd": 1.03,
+  "positive_judge_means": {
+    "admits_multiplicity": 4.98,
+    "distinctness": 4.53,
+    "concreteness": 3.74,
+    "decisiveness": 4.6,
+    "foresight": 3.56,
+    "viability": 3.18
+  },
+  "gate_yield(viable&distinct&concrete>=4)": 38.6,
+  "DPO_contrast": {
+    "avg_pos_minus_neg_mean": 2.17,
+    "pct_neg_worse_than_pos": 100.0,
+    "neg_mean": 1.92
+  },
+  "by_source": {
+    "PR": 8,
+    "ST": 7,
+    "TH": 6,
+    "PL": 5,
+    "AR": 8,
+    "DO": 8,
+    "ST2": 8,
+    "CI": 7
+  },
+  "by_setting": {
+    "modern": 29,
+    "classical": 28
+  }
+}

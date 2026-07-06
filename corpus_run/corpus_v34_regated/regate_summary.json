@@ -1,0 +1,34 @@
+{
+  "input": 402,
+  "judge_failures": 0,
+  "kept": 49,
+  "dropped": 353,
+  "survival_pct": 12.2,
+  "kept_by_corpus": {
+    "v3": 30,
+    "v4": 19
+  },
+  "kept_by_source": {
+    "TH": 22,
+    "PR": 20,
+    "JPM": 7
+  },
+  "kept_means": {
+    "admits_multiplicity": 4.88,
+    "distinctness": 4.31,
+    "concreteness": 4.0,
+    "decisiveness": 4.78,
+    "foresight": 3.43,
+    "viability": 2.84
+  },
+  "dropped_means": {
+    "admits_multiplicity": 3.75,
+    "distinctness": 2.76,
+    "concreteness": 2.87,
+    "decisiveness": 3.23,
+    "foresight": 2.23,
+    "viability": 1.59
+  },
+  "gate": "distinct>=4 & concrete>=4 (sharpness only; viability recorded NOT gated)",
+  "spend_usd": 1.25
+}

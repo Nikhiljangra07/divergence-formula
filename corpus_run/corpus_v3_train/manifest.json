@@ -1,0 +1,23 @@
+{
+  "goal": 201,
+  "generated": 201,
+  "by_source": {
+    "TH": 51,
+    "PR": 50,
+    "JPM": 50,
+    "RI": 50
+  },
+  "gate": "judge.min>=3",
+  "attempts": 354,
+  "spend_usd": 3.05,
+  "elapsed_s": 4477,
+  "complete": true,
+  "worker_prompt": "original (reverted)",
+  "sources": [
+    "TH",
+    "PR",
+    "JPM",
+    "RI"
+  ],
+  "judge": "anthropic/claude-haiku-4.5"
+}

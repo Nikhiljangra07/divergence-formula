@@ -1,0 +1,17 @@
+{
+  "label": "bench_sft",
+  "n_scored": 48,
+  "n_fail": 0,
+  "judge_means": {
+    "admits_multiplicity": 4.417,
+    "distinctness": 3.167,
+    "concreteness": 2.833,
+    "decisiveness": 3.188,
+    "foresight": 2.438,
+    "viability": 2.042
+  },
+  "judge_overall_mean": 3.014,
+  "viability_pass(>=3)": 20.8,
+  "distinct_pass(>=4)": 35.4,
+  "full_pd_diag": 0.3266
+}

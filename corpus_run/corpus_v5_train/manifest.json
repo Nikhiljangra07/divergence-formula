@@ -1,0 +1,32 @@
+{
+  "goal": 480,
+  "generated": 480,
+  "by_source": {
+    "ST": 60,
+    "TH": 60,
+    "PL": 60,
+    "CI": 60,
+    "AR": 60,
+    "DO": 60,
+    "ST2": 60,
+    "PR": 60
+  },
+  "by_setting": {
+    "classical": 227,
+    "modern": 253
+  },
+  "gate": "haiku viability>=3 & distinct>=4 & concrete>=4",
+  "judge": "anthropic/claude-haiku-4.5",
+  "attempts": 732,
+  "spend_usd": 8.003,
+  "elapsed_s": 12076,
+  "complete": true,
+  "positive_judge_means": {
+    "admits_multiplicity": 5.0,
+    "distinctness": 4.642,
+    "concreteness": 4.04,
+    "decisiveness": 4.829,
+    "foresight": 3.748,
+    "viability": 3.375
+  }
+}

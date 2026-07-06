@@ -1,0 +1,33 @@
+{
+  "setting": "set_a",
+  "dir": "set_a_with_consequence",
+  "consequence_gate": true,
+  "target": 200,
+  "passers": 212,
+  "near_miss": 24,
+  "rejects": 51,
+  "passer_means": {
+    "volume": -6.078,
+    "ground": 0.531,
+    "whole": 0.419,
+    "pairdist": 0.385
+  },
+  "source_mix": {
+    "PR": 59,
+    "MB": 49,
+    "JPM": 51,
+    "RI": 53
+  },
+  "themes_covered": 51,
+  "reject_reasons": {
+    "consequence": 43,
+    "pairdist": 3,
+    "incomplete": 21,
+    "length": 8,
+    "ground": 3,
+    "whole": 1
+  },
+  "spend_usd": 1.561,
+  "dsv4_calls": 1658,
+  "seconds": 2961
+}
