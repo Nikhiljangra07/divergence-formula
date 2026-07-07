@@ -1,0 +1,9 @@
+# Training + adapter evaluation kit (round2_kit/) — needs a CUDA GPU pod.
+# Exact versions/traps for the H-Small hybrid (Mamba kernels, optimizer flags)
+# are documented in WORKING_PAPER.md §13.
+-r requirements.txt
+torch>=2.3
+transformers>=4.44
+peft>=0.11
+trl>=0.9
+datasets>=2.20

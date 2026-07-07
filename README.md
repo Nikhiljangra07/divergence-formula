@@ -71,6 +71,28 @@ out*/ dsv4_pilot/ …   ← round-0 artifacts (the original R1 criterion derivat
 - Evaluation: `round2_kit/dav_eval_v5.py` + `corpus_run/judge_blend2_gemini.py` /
   `rejudge_all_gemini.py` (neutral-judge benchmark, same 48 problems across all rounds).
 
+## Running it yourself
+
+```bash
+git clone https://github.com/Nikhiljangra07/divergence-formula.git
+cd divergence-formula
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt          # corpus + judging harness
+# pip install -r requirements-train.txt  # training/eval kit — needs a CUDA GPU
+```
+
+API keys: copy `.env.example` and export the variables in your shell (the scripts
+read `os.environ`). Corpus generation needs `OPENROUTER_API_KEY` (DeepSeek) and
+`GEMINI_API_KEY` (judge gate); the benchmark harness additionally uses
+`ANTHROPIC_API_KEY` (Haiku competitor). Without keys, generation/judging scripts
+will fail at the first API call — nothing runs against a paid API silently.
+
+- Regenerate a corpus round: `python corpus_run/gen_v5.py` (config at top of file)
+- Re-run the neutral-judge benchmark on stored threads: `python corpus_run/rejudge_all_gemini.py`
+- Train adapters (GPU pod): `python round2_kit/train_lora.py` — read WORKING_PAPER.md §13
+  first; the Mamba-kernel and optimizer traps for the H-Small hybrid are all written down there.
+- Exact training data ships in-repo: `round2_kit/data_v5*`, `round2_kit/data_blend2`.
+
 ## Honest scope
 
 This is a research program with a specialist's scoreboard, not a general benchmark win. The eval

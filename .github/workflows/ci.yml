@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    name: Install + compile
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install base dependencies (validates requirements.txt resolves)
+        run: pip install -r requirements.txt
+      - name: Compile all source (syntax gate)
+        run: python -m compileall -q corpus_run round2_kit
+      # Training kit (requirements-train.txt) needs a CUDA GPU and model
+      # weights — compileall parses those files without importing torch.

@@ -1,0 +1,4 @@
+# Corpus generation, judging, and benchmark harness (corpus_run/)
+httpx>=0.27
+numpy>=1.26
+python-dotenv>=1.0
