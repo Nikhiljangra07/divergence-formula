@@ -49,6 +49,7 @@ campaigns: **≈ $175**.
 
 ```
 WORKING_PAPER.md      ← the full record: every round, every number, every mistake (start here)
+ARTICLE.md            ← essay: "The $175 Specialist" — the DPO capacity-entanglement finding, for a general ML audience
 MASTER.md             ← condensed project memory (thesis, models, corpora, formula)
 DAV_SPEC.md           ← the mathematical criterion (divergence-and-viability) in full
 ISOLATION.md          ← data-provenance audit vs the author's other projects
