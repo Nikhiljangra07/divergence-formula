@@ -1,8 +1,8 @@
 # divergence-formula — distilling divergent reasoning into small open models
 
-Frontier chat models converge: ask a hard question, get one blended answer. This project trains small
-open models to do the opposite — **refract** a hard decision into four genuinely distinct, viable
-strategic threads, each a different *kind* of move, and refuse to blend them.
+This project trains small open models to propose four distinct strategic options for a hard
+decision. It evaluates the tradeoff between distinctness and viability using synthetic training
+data and a model-judged decision-task rubric.
 
 Eight rounds, two trained models, every result (including the negative ones) recorded in
 **[`WORKING_PAPER.md`](WORKING_PAPER.md)** — the project's centerpiece document.
@@ -11,8 +11,8 @@ Eight rounds, two trained models, every result (including the negative ones) rec
 
 | | Base | Method | Role |
 |---|---|---|---|
-| **v5 SFT** | IBM granite-4.0-micro (3.4B dense) | LoRA SFT on 2,285 synthetic judge-gated rows | proof the skill is teachable at all |
-| **BLEND2** (shipped) | IBM granite-4.0-h-small (32B total / ~9B active hybrid Mamba+MoE) | LoRA SFT on 6,745 rows (balanced sources + a targeted "viable-cunning" round) | the real ship |
+| **v5 SFT** | IBM granite-4.0-micro (3.4B dense) | LoRA SFT on 2,285 synthetic judge-gated rows | small-model adaptation experiment |
+| **BLEND2** (released adapter) | IBM granite-4.0-h-small (32B total / ~9B active hybrid Mamba+MoE) | LoRA SFT on 6,745 rows (balanced sources + a targeted "viable-cunning" round) | larger hybrid-model experiment |
 
 ## Final scoreboard
 
@@ -25,25 +25,27 @@ Claude Haiku 4.5 as the frontier competitor generated fresh in the same session:
 | **H-Small BLEND2 (ship)** | **4.55** | 3.56 | **4.90** | **4.83** | 4.21 |
 | Claude Haiku 4.5 | 4.72 | 4.25 | 4.75 | 4.83 | 4.52 |
 
-**The shipped specialist beats Haiku on the objective it was built for (distinctness 4.90 vs 4.75) and
-ties it on decisiveness** — with ~9B active parameters against a frontier model. It loses overall
-(−0.17); the residue is viability and foresight, and the paper says so plainly.
+**BLEND2 received a higher distinctness point score (4.90 vs 4.75) and the same decisiveness
+score in this judge session.** It scored lower overall (4.55 vs 4.72), including lower viability
+and foresight. These single-judge, 48-problem comparisons do not establish general superiority,
+and the repeatedly reused problems are development diagnostics rather than a fresh final test.
 
 ## The five findings the journey produced (details + evidence in the paper)
 
-1. **Refraction is teachable** to small open models from purely synthetic corpora — but plateaus
-   (~2.75/5 distinctness on 3.4B, triangulated three ways).
-2. **Corpus quality beats corpus size, every time it was tested.** The plateau broke via source
-   rebalancing, not scale; later, 850 laser-targeted examples bought only +0.10 viability.
-3. **On a 3.4B, distinctness and viability are capacity-entangled** — preference optimization (DPO)
-   with clean hard negatives buys viability only by selling distinctness. A crisp negative result.
-4. **The entanglement breaks at ~9B active params** — identical data, both dimensions rise together.
-   Foresight, immovable on the 3.4B under every data intervention, jumped +0.73 with capacity alone.
-5. **A cheap strong generator saturates a tightly-prompted rubric** — DeepSeek V4 Pro tied Claude
-   Sonnet 5 on corpus quality at ~1/7 the price (and beat it on distinctness) in a paired A/B.
+1. **Synthetic-data adaptation changed the target behavior.** Early 3.4B runs plateaued near
+   2.75/5 distinctness under the then-current evaluation; later interventions changed the outcome.
+2. **Source balancing mattered in the tested recipes.** Rebalancing helped, while a later
+   850-example targeted addition produced only +0.10 viability in the reported comparison.
+3. **The tested 3.4B DPO recipe traded distinctness for viability.** This is evidence about that
+   optimization setup, not proof of an inherent capacity limit.
+4. **The larger hybrid base improved both dimensions in the reported comparison.** Architecture
+   and base weights changed with parameter count, so the effect of capacity alone was not isolated.
+5. **The generator comparison favored the cheaper option under its rubric.** The recorded paired
+   A/B found similar corpus-quality scores at lower API cost; this is scoped to those prompts,
+   model versions, prices and judge.
 
-Total cost of the entire program — 8 rounds, ~1,400 corpus examples, 6 GPU training runs, 3 benchmark
-campaigns: **≈ $175**.
+Recorded program cost across 8 rounds, 6 GPU training runs and 3 benchmark campaigns: **≈ $175**.
+Training-row counts differ by model and release, as shown above.
 
 ## Repo map
 
@@ -62,8 +64,9 @@ out*/ dsv4_pilot/ …   ← round-0 artifacts (the original R1 criterion derivat
 
 ## Models & reproduction
 
-- **Adapters are not in this repo** (LoRA safetensors, ~GBs) — archived locally; available on request.
-  Base models are IBM Granite (Apache-2.0).
+- **Adapters are hosted on Hugging Face:** [3.4B v5 SFT](https://huggingface.co/Nikhil0097/refract-granite-3.4b-v5)
+  and [H-Small BLEND2](https://huggingface.co/Nikhil0097/refract-hsmall-blend2). They require their
+  respective IBM Granite base models; see the model cards for loading instructions and limits.
 - Corpus generation: `corpus_run/gen_v5.py`, `gen_essence_scale.py` (DeepSeek generator + LLM judge
   gate; API keys via env, never committed).
 - Training: `round2_kit/train_lora.py` (r64/α64/5ep; H-Small needs the Mamba kernel + optimizer flags
